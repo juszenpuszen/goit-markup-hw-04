@@ -86,10 +86,10 @@ nav {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   position: relative;
+  color: #404bbf;
 }
 .nav-links:hover::after {
   content: "";
-  /* position: relative; */
   display: block;
   width: 48px;
   height: 4px;
