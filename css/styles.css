@@ -355,7 +355,7 @@ a:focus {
   margin-bottom: 16px;
 }
 
-.whole-footer {
+.container-footer {
   display: flex;
   align-items: center;
 }
