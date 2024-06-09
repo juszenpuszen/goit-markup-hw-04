@@ -282,7 +282,7 @@ a:focus {
 .social-list {
   width: 40px;
   height: 40px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   display: flex;
@@ -326,6 +326,7 @@ a:focus {
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   cursor: pointer;
 }
+
 .portfolio-border {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -352,4 +353,32 @@ a:focus {
 .bottom-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.whole-footer {
+  display: flex;
+  align-items: center;
+}
+.left-footer {
+  margin-right: 120px;
+}
+.sm-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-sm-list {
+  display: flex;
+
+  justify-content: center;
+  gap: 16px;
+}
+.social-list-footer {
+  width: 40px;
+  height: 40px;
 }
