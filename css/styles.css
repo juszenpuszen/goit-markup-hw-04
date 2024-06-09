@@ -292,6 +292,15 @@ a:focus {
   align-items: center;
   justify-content: center;
 }
+.social-link:hover {
+  background-color: var(--ocean);
+}
+.social-link:focus {
+  background-color: var(--ocean);
+}
+.social-icon {
+  fill: var(--cloud);
+}
 
 /* PORTFOLIO  */
 .portfolio-section {
