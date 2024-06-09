@@ -220,6 +220,11 @@ a:focus {
 .feature {
   width: calc((100% - 72px) / 4);
 }
+
+.icon-div {
+  /* background-color: red; */
+}
+
 /* TEAM */
 .team-section {
   background-color: var(--cloud);
