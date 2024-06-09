@@ -88,7 +88,7 @@ nav {
   position: relative;
   color: #404bbf;
 }
-.nav-links:hover::after {
+.nav-links::after {
   content: "";
   display: block;
   width: 48px;
