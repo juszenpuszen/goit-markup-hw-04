@@ -346,8 +346,6 @@ a:focus {
   background-color: #3f51b5;
   transform: translatey(100%);
   transition: transform 250ms ease-in-out;
-}
-.app-text {
   color: var(--cloud);
   font-family: Roboto;
   font-size: 16px;
@@ -357,6 +355,7 @@ a:focus {
   text-align: left;
   padding: 40px 32px;
 }
+
 .portfolio-part:hover .overlay-text {
   transform: translateY(0);
 }
